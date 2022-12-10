@@ -1,0 +1,17 @@
+.footerContainer {
+  background-image: url(../../asset/images/navbarFooter.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-top: 10px;
+  border: 10px solid black;
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #f5ad44;
+  font-family: "Lexend";
+}

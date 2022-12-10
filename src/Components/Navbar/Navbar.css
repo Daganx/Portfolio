@@ -1,0 +1,120 @@
+.navbarContainer {
+  border: 8px solid black;
+  margin-top: 10px;
+
+  font-family: "Lexend";
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: url(../../asset/images/navbarFooter.jpg);
+  background-position: top;
+  color: white;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+
+  gap: 50px;
+
+  font-size: 30px;
+}
+
+.linkContainer a {
+  color: white;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#root
+  > div
+  > div:nth-child(2)
+  > section
+  > div.linkContainer
+  > a:nth-child(1)
+  > i:hover {
+  transform: scale(+1.2);
+  color: gold;
+}
+
+#root
+  > div
+  > div:nth-child(2)
+  > section
+  > div.linkContainer
+  > a:nth-child(2)
+  > i:hover {
+  transform: scale(+1.2);
+  color: #5562eb;
+}
+
+#root
+  > div
+  > div:nth-child(2)
+  > section
+  > div.linkContainer
+  > a:nth-child(3)
+  > i:hover {
+  transform: scale(+1.2);
+  color: #016fac;
+}
+
+.mediaContainer {
+  display: flex;
+  align-items: center;
+
+  gap: 50px;
+
+  font-size: 30px;
+}
+#root
+  > div
+  > div:nth-child(2)
+  > section
+  > div.mediaContainer
+  > i:first-child:hover {
+  transform: scale(+1.2);
+  color: #ff4500;
+}
+
+#root
+  > div
+  > div:nth-child(2)
+  > section
+  > div.mediaContainer
+  > i:nth-child(2):hover {
+  transform: scale(+1.2);
+  color: #1da1f3;
+}
+
+#root
+  > div
+  > div:nth-child(2)
+  > section
+  > div.mediaContainer
+  > i:nth-child(3):hover {
+  transform: scale(+1.2);
+  color: red;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbarContainer {
+    flex-direction: column;
+  }
+  .linkContainer {
+    gap: 100px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .mediaContainer {
+    gap: 100px;
+    margin-bottom: 2rem;
+  }
+}

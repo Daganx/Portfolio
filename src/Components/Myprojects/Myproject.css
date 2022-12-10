@@ -1,0 +1,66 @@
+.projetContainer {
+  border: 10px solid black;
+  margin-top: 10px;
+  height: 50vh;
+
+  background-image: url(../../asset/images/thirdBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.projetArticle {
+  box-shadow: 4px 3px 6px 3px rgba(0, 0, 0, 0.75);
+  border: 3px solid white;border: 3px solid black;
+
+  width: 18%;
+  height: 80%;
+
+  margin: 10px;
+}
+
+.projetArticle:hover{
+  border: 5px solid rgba(244, 173, 69, 1);
+  transform:scale(+1.05);
+}
+
+#root > div > div:nth-child(3) > section > article:nth-child(1) {
+  background-image: url(../../asset/images/oneMillions.png);
+  background-size: cover;
+  background-position: top;
+}
+
+#root > div > div:nth-child(3) > section > article:nth-child(2) {
+  background-image: url(../../asset/images/gamingCampus.png);
+  background-size: cover;
+  background-position: top;
+}
+
+#root > div > div:nth-child(3) > section > article:nth-child(3) {
+  background-image: url(../../asset/images/newWorld.png);
+  background-size: cover;
+  background-position: top;
+}
+
+#root > div > div:nth-child(3) > section > article:nth-child(4) {
+  background-image: url(../../asset/images/leResto.png);
+  background-size: cover;
+  background-position: top;
+}
+
+@media screen and (max-width:1024px){
+  .projetContainer{
+    flex-direction: column;
+    height: 80vh;
+  }
+  .projetArticle{
+    width: 70%;
+  }
+}
+  

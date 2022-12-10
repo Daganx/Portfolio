@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* MON CSS GLOBAL */
+
+@font-face {
+  font-family: "Terminal";
+  src: url(./asset/fonts/Terminal.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Lexend";
+  src: url(./asset/fonts/Lexend-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url(../src/asset/fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "FredokaOne";
+  src: url(./asset/fonts/FredokaOne.ttf);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+body {
+  margin: 10px;
 }
